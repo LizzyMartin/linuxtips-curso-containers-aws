@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "terraform.languageServer": {
+        "external": true,
+        "args": ["serve"],
+        "pathToBinary": "terraform-ls",
+        "maxNumberOfProblems": 100,
+        "trace.server": "off"
+    },
+    "[terraform]": {
+        "editor.tabSize": 2
+    }
+}
